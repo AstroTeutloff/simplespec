@@ -3,7 +3,7 @@ Package for SDSS(-V) spectra.
 
 @author: Felix Teutloff
 @date: 10-2025
-@version: 0.1
+@version: 0.0.1
 """
 
 from os.path import isfile
@@ -17,7 +17,7 @@ from astropy.io import fits
 from astropy.table import QTable
 from astropy.utils.masked import Masked
 
-from spectra.BaseSpectrum import BaseSpectrum
+from simplespec.BaseSpectrum import BaseSpectrum
 
 class SDSSSpectrum(BaseSpectrum):
     """
