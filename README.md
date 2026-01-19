@@ -3,7 +3,11 @@ A tiny (and growing, depending on my needs) python module for analyses of
 Spectra in python.
 
 ## INSTALLATION
-You can install the package manually:
+You can install the package via `pip`:
+```
+pip install git+https://github.com/AstroTeutloff/simplespec.git
+```
+or by cloning the repository:
 ```bash
 git clone https://github.com/AstroTeutloff/simplespec.git
 cd simplespec
